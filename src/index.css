@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 :root {
-  font-family: system-ui, "DM Sans", sans-serif;
+  font-family: "DM Sans";
 
   @theme{
     --color-red-100: #F9ECE2;
@@ -36,6 +36,8 @@
     --text-preset-6: 12px;
     --leading-preset-6: 135%;
 
+    --radius-1: 1px;
+    --radius-5: 5px;
     --radius-20: 20px;
   }
 }
